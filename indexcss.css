@@ -9,3 +9,79 @@ body{
     color: red;
     float: left;
 }
+#titulo {
+    color:brown;
+    text-align: center;
+    border-style:solid;
+    border-radius: 5px;
+    border-color:black;
+    background-color: beige;
+}
+#Header{
+    width: 100%;
+    margin:auto;
+    border: 2px solid black;
+    background-color: #007bff;
+}
+
+
+.Menu{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Menu:hover {
+    background-color: #0056b3;
+}
+
+.Recomendaciones{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Recomendaciones:hover {
+    background-color: #0056b3;
+}
+.Reseñas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Reseñas:hover {
+    background-color: #0056b3;
+}
+.Contacto{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Contacto:hover {
+    background-color: #0056b3;
+}
+
+* {
+    background-image: URL("") ;
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
