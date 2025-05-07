@@ -1,3 +1,6 @@
+html {
+  font-family: "Oswald", sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,15 +11,39 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+
 body{
     min-height: 100vh;
-    background-image: url(https://raw.githubusercontent.com/gist/vininjr/d29bb07bdadb41e4b0923bc8fa748b1a/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif);
+    background-image: url("IMAGES/body.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     scroll-behavior: auto;
 scroll-behavior: smooth;
 }
+IMAGES/body.jpg {
+  opacity 60%;
+}
+
+#Leyenda{
+height: auto;
+width: 250px;
+margin: 0 auto;
+background-color:blanchedalmond;
+}
+#Leyenda_img{
+  height: 60px;
+  width: 250px;
+  margin: 0 auto;
+  border:solid 1px;
+  }
+  #logo_rochi{
+    margin:-10px 0;
+    width: 60px;
+    height: 70px;
+    border: solid 1px;
+  }
+
 nav{
     background-color: beige;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -31,10 +58,7 @@ nav ul{
 nav li{
     height: 50px;
 }
-.nav_menu{
-   
-    
-}
+
 nav a{
     color: black;
     text-decoration: none;
@@ -50,15 +74,15 @@ nav a:hover{
 .login_right {
   margin-left: auto;
 }
-
-
-#logo_rochi{
-  width: 60px;
-  height: auto;
+#login_img{
+  
+  height: 20px;
 }
+
+
 footer{
   background-color: beige;
-  height:50px;
+  height:60px;
   margin-top: auto;
   text-align: center;
 }
@@ -66,10 +90,21 @@ footer{
   float: right;
   text-decoration: none;
   color:black;
+  background-color: blanchedalmond;
+  border: 1px solid;
+  padding:7px 10px ;
+  border-radius: 10px;
 }
 
 #Inicio1{
   float: left;
   text-decoration: none;
   color:black;
+  background-color: blanchedalmond;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer section{
+  margin: 10px 50px ;
 }
