@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://i.pinimg.com/originals/ea/8b/13/ea8b137fbc46bea2f12cc9087e57053d.gif");
+
 }
 
 .Menu_sup{
@@ -7,8 +7,8 @@ body{
     height: 100%;
     background-color: red;
     float: left;
+    padding-top: 0%;
 }
-<<<<<<< HEAD
 #titulo {
     color:brown;
     text-align: center;
@@ -16,6 +16,7 @@ body{
     border-radius: 5px;
     border-color:black;
     background-color: beige;
+    margin-top: -1%;
 }
 #Header{
     width: 100%;
@@ -85,10 +86,3 @@ body{
     height: auto;
     background-size: cover;
 }
-=======
-#Logo_barra{
-width: 50px;
-height: auto;
-}
-
->>>>>>> 4ef74c3369c2eebe76a02aed32c627c0c6d78cef
