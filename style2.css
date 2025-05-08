@@ -7,23 +7,25 @@ html {
 
 }
 html, body {
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-body{
-    min-height: 100vh;
-    background-image: url("IMAGES/body.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    scroll-behavior: auto;
-scroll-behavior: smooth;
+body {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
-IMAGES/body.jpg {
-  opacity 60%;
+
+#image_body{
+  height: auto;
+  width: 100%;
+  max-height: 600px;
+  opacity: 0.9;
 }
+
 
 #Leyenda{
 height: auto;
@@ -52,11 +54,13 @@ nav ul{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 nav li{
     height: 50px;
+}
+.Menu_etc{
+  margin-left: 40%;
 }
 
 nav a{
@@ -107,4 +111,19 @@ footer{
 }
 footer section{
   margin: 10px 50px ;
+}
+
+.collage_History {
+  background-color: azure;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.collage_cafeteria {
+  background-color: aqua;
+  height: 200px;
+  width: 450px;
+  margin-left: 50px;
 }
