@@ -127,4 +127,9 @@ footer section{
   width: 450px;
   margin-left: 50px;
 }
-#
+#Contacto1{
+  justify-content: center;
+  border:none;
+  background-color: darksalmon;
+  border-radius: 50px;
+}
