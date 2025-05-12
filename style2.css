@@ -62,6 +62,10 @@ nav li{
 .Menu_etc{
   margin-left: 38%;
 }
+#image_banner{
+  width: 50px;
+  height: auto;
+}
 
 nav a{
     color: black;
