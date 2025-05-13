@@ -1,0 +1,258 @@
+html {
+    font-family: "Oswald", sans-serif;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  
+  }
+  html, body {
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: url("IMAGES/body.png");
+    background-size: 100%;
+  }
+  
+  
+  
+  #Leyenda{
+  height: auto;
+  width: 250px;
+  margin: 0 auto;
+  
+  }
+  #Leyenda_img{
+    height: 60px;
+    width: 250px;
+    margin: 0 auto;
+  
+    }
+    #logo_rochi{
+      margin:-10px 0;
+      width: 60px;
+      height: 70px;
+      border: solid 1px;
+    }
+  
+  nav{
+      background-color: beige;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+      
+  }
+  nav ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      
+  }
+  nav li{
+      height: 50px;
+  }
+  .Menu_etc{
+    margin-left: 38%;
+  }
+  #image_banner{
+    width: 75%;
+    height: auto;
+    margin: 15px 15px 0px 50px;
+    border:none;
+    border-radius: 15px;
+   
+    
+  }
+  
+  nav a{
+      color: black;
+      text-decoration: none;
+      height: 100%;
+      padding: 0px 30px;
+      align-items: center;
+      display: flex;
+     
+  }
+  nav a:hover{
+      background-color: black;
+      color: aliceblue;
+  }
+  .login_right {
+    margin-left: auto;
+  }
+  #login_img{
+    
+    height: 20px;
+  }
+  
+
+  .productos{
+    
+    height:auto;
+    text-align: center;
+    
+  }
+
+  
+#comidas{
+    margin:5px 10px;
+    float: left;
+    border:none;
+    border-radius: 10px;
+    background-color: beige;
+    opacity:70%;
+    width: 35%;  
+    color:black;
+    border: none;
+    padding:7px 10px ;
+    border-radius: 10px;
+    
+}
+
+#bebidas{
+    margin:5px 10px;
+    float: right;
+    border:none;
+    border-radius: 10px;
+    background-color: beige;
+    opacity:70%;
+    width: 35%; 
+    color:black;
+    border: none;
+    padding:7px 10px ;
+    border-radius: 10px;
+    
+}
+
+.contenido{
+    margin-top: auto;
+    text-align: center;
+    
+}
+#productosbebida{
+    float:right;
+    margin:20px 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: azure;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#productoscomida{
+    float:left;
+    margin:20px 30px;
+    width:500px;
+    border:none;
+    border-radius: 10px;
+    background-color: azure;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#imgcomida{
+    width: 350px;
+    height:350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+#imgbebida{
+    width: 350px;
+    height:350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+footer{
+    background-color: beige;
+    height:100px;
+    margin-top: auto;
+    text-align: center;
+  }
+  #Inicio{
+    float: right;
+    text-decoration: none;
+    color:black;
+    background-color: blanchedalmond;
+    border: 1px solid;
+    padding:7px 10px ;
+    border-radius: 10px;
+  }
+  
+  #Inicio1{
+    float: left;
+    text-decoration: none;
+    color:black;
+    background-color: blanchedalmond;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer section{
+    margin: 10px 50px ;
+    
+  }
+
+  .collage_History {
+    margin:30px;
+    border:none;
+    border-radius: 20px;
+    background-color: khaki;
+    opacity: 80%;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  #collage {
+  border:none;
+  border-radius: 10px;
+  width: auto;
+  background-color: rgb(214, 237, 111);
+  margin:5px
+  }
+  
+  
+  .collage_cafeteria {
+    background-color: rgb(202, 129, 102);
+    height: 300px;
+    width: 450px;
+    margin: 30px;
+    border:none;
+    border-radius: 20px;
+    justify-items: center;
+  }
+  #Contacto1{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border:none;
+    background-color: white;
+    border-radius: 50px;
+    
+    
+  }
+  #imgcontacto{
+    height:30px;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+  }
