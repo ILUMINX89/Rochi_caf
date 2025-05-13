@@ -7,20 +7,20 @@ html {
 
 }
 html, body {
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-body{
-    min-height: 100vh;
-    background-image: url("IMAGES/body.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    scroll-behavior: auto;
-scroll-behavior: smooth;
+body {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: url("IMAGES/body.png");
+  background-size: 100%;
 }
+
 
 
 #Leyenda{
@@ -45,16 +45,29 @@ margin: 0 auto;
 nav{
     background-color: beige;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    
 }
 nav ul{
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    
 }
 nav li{
     height: 50px;
+}
+.Menu_etc{
+  margin-left: 38%;
+}
+#image_banner{
+  width: 75%;
+  height: auto;
+  margin: 15px 15px 0px 50px;
+  border:none;
+  border-radius: 15px;
+ 
+  
 }
 
 nav a{
@@ -64,6 +77,7 @@ nav a{
     padding: 0px 30px;
     align-items: center;
     display: flex;
+   
 }
 nav a:hover{
     background-color: black;
@@ -80,7 +94,7 @@ nav a:hover{
 
 footer{
   background-color: beige;
-  height:60px;
+  height:100px;
   margin-top: auto;
   text-align: center;
 }
@@ -105,4 +119,57 @@ footer{
 }
 footer section{
   margin: 10px 50px ;
+  
+
+  
+}
+
+.collage_History {
+  margin:30px;
+  border:none;
+  border-radius: 20px;
+  background-color: khaki;
+  opacity: 80%;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#collage {
+border:none;
+border-radius: 10px;
+width: auto;
+background-color: rgb(214, 237, 111);
+margin:5px
+}
+
+
+.collage_cafeteria {
+  background-color: rgb(202, 129, 102);
+  height: 300px;
+  width: 450px;
+  margin: 30px;
+  border:none;
+  border-radius: 20px;
+  justify-items: center;
+}
+#Contacto1{
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border:none;
+  background-color: white;
+  border-radius: 50px;
+  
+  
+}
+#imgcontacto{
+  height:30px;
+  width: auto;
+  padding: 10px;
+  margin: auto;
+  display: flex;
 }
