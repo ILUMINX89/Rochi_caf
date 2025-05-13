@@ -21,21 +21,19 @@ body{
     scroll-behavior: auto;
 scroll-behavior: smooth;
 }
-IMAGES/body.jpg {
-  opacity 60%;
-}
+
 
 #Leyenda{
 height: auto;
 width: 250px;
 margin: 0 auto;
-background-color:blanchedalmond;
+
 }
 #Leyenda_img{
   height: 60px;
   width: 250px;
   margin: 0 auto;
-  border:solid 1px;
+
   }
   #logo_rochi{
     margin:-10px 0;
