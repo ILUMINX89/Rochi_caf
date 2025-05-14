@@ -17,11 +17,32 @@ html {
     position: relative;
     min-height: 100vh;
     overflow-x: hidden;
-    background-image: url("IMAGES/body.png");
-    background-size: 100%;
+    background-color: antiquewhite;
   }
   
   
+ .container {
+  width: 15%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.bebidas, .sub_bebidas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub_bebidas {
+  margin-left: 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
   
   #Leyenda{
   height: auto;
@@ -256,3 +277,25 @@ footer{
     margin: auto;
     display: flex;
   }
+
+
+
+  html {
+  scroll-behavior: smooth; 
+}
+
+.layout {
+  display: flex;
+
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+#titulos{
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
