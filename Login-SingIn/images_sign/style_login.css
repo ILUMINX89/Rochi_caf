@@ -1,0 +1,52 @@
+html, body {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+body{
+   background-color: #f6a36d;
+   align-items: center;
+}
+
+.container{
+   position: relative;
+   width: 850px;
+   height: 450px;
+   background-color: white;
+   border-radius: 30px;
+   margin-top: 125px;
+}
+.singin{
+   position: absolute;
+   width: 50%;
+   height: 100%;
+   display: flex;
+   right: 0;
+   text-align: center;
+   align-items: center;
+   background-color: aquamarine;
+}
+form{
+   width: 100%;
+}
+.input_class{
+   position: relative;
+   margin: 15px;
+}
+.input_class input{
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px;
+    font-family: Poppins;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.input_class input:hover{
+   border-bottom: 2px solid black;
+   
+   
+}
+

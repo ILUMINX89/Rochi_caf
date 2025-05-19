@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
        <link rel="stylesheet" href="stylemenu.css">
-    <title>Document</title>
+    <title>Menu</title>
 </head>
 <body>
     <header>
@@ -26,59 +26,80 @@
                
             <li class="login_right">
                 <li id="login_img"><img  src="IMAGES/login.png" /></li>
-                <a id="log_box" href="">Login/Sign In</a>
+                <a id="log_box" href="login.html">Login/Sign In</a>
             </li>
         </ul>
+    
     </nav>
-    <section class="productos">
-        <div><h1 id="comidas">Comidas </h1></div>
-        <div><h1 id="bebidas">Bebidas </h1></div>
-    </section>
-    <section class="contenido">
-        <ul id="productoscomida">
-            <li>
-                <img id="imgcomida" src="IMAGES/comidas/croissant.jpg"/>
-                <h2>Croissant</h2>
-                <p>$5.000</p>
-           
-            </li>
-            <li>
-                <img id="imgcomida" src="IMAGES/comidas/empanada.jpg"/>
-                <h2>Empanada</h2>
-                <p>$4.000</p>
-            </li>
-            <li>
-                <img id="imgcomida" src="IMAGES/comidas/sandwich.jpg"/>
-                <h2>Sandwich</h2>
-                <p>$4.000</p>
-            </li>
+<div class="layout">
+
+
+<div class="container">
+  <div class="Right">
+    <ul class="bebidas">
+      <li><strong>Bebidas</strong>
+        <ul class="sub_bebidas">
+          <li><a href="#seccion-gaseosas">Gaseosas</a></li>
+          <li><a href="#seccion-calientes">Bebidas Calientes</a></li>
+          <li><a href="#seccion-jugos">Jugos</a></li>
+          
         </ul>
-        <ul id="productosbebida">
-            <li>
+        <ul class="comidas">
+            <li><strong>Comidas</strong>
+                <ul class="sub_comidas">
+                    <li><a href="">Panaderia</a></li>
+                    <li><a href="">Paquetes</a></li>                    
+                </ul>
+            </li>
+
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="section">
+
+<div id="seccion-gaseosas" class="seccion">
+    <h1 id="titulos">Gaseosas</h1><hr>
+     <ul class="productos-bebida">
+        
+        <li class="bebida_tam">
+                <img id="imgbebida" src="IMAGES/comidas/cocacola.png"/>
+                <h2>Coca Cola Lata</h2>
+                <h5>$3.500</h5>
+                <button><a href="">Añadir al carrito</a></button>                
+            </li>
+             <li class="bebida_tam">
+                <img id="imgbebida" src="IMAGES/comidas/pepsi.png"/>
+                <h2>Pepsi Lata</h2>
+                <h5>$2.500</h5>
+                <button><a href="">Añadir al carrito</a></button>
+            </li>
+    </ul>     
+</div>
+
+<div id="seccion-calientes" class="seccion">
+    <ul class="urls_contenido">
+        <h1 id="titulos">Bebidas Calientes</h1><hr>
+        <li>
                 <img id="imgbebida" src="IMAGES/comidas/cafe.jpg"/>
                 <h2>Cafe</h2>
                 <p>$2.000</p>
            
-            </li>
-            <li>
-                <img id="imgbebida" src="IMAGES/comidas/latte.jpg"/>
-                <h2>Latte</h2>
-                <p>$3.000</p>
-            </li>
-            <li>
-                <img id="imgbebida" src="IMAGES/comidas/cocacola.jpg"/>
-                <h2>Coca Cola Lata</h2>
-                <p>$3.500</p>
-            </li>
-        </ul>
-        
-    </section>
+        </li>
 
-
+    </ul>
+     
+</div>
+<div id="seccion-jugos" class="seccion">Contenido de Jugos</div>
+</div>
+</div>
 
     <footer>
         <section>
-            <a href="#leyenda" id="Inicio1"> Ir al inicio</a>
+            <a href="index2.html" id="Inicio1"> Ir al inicio</a>
             
             <a href="mailto:efparram@libertadores.edu.co" id="Inicio"><img id="contact" src="IMAGES/contacto.png" /></a>
         </section>

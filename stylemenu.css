@@ -17,11 +17,35 @@ html {
     position: relative;
     min-height: 100vh;
     overflow-x: hidden;
-    background-image: url("IMAGES/body.png");
-    background-size: 100%;
+    background-color: antiquewhite ;
   }
   
   
+ .container {
+  width: 15%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.bebidas, .sub_bebidas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+
+.sub_bebidas , .sub_comidas {
+  margin-left: 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
   
   #Leyenda{
   height: auto;
@@ -166,10 +190,10 @@ html {
 
 
 #imgbebida{
-    width: 350px;
-    height:350px;
+    height:165px;
     border-radius: 20px;
     padding: 10px;
+    width: 150px;
 }
 
 
@@ -256,3 +280,40 @@ footer{
     margin: auto;
     display: flex;
   }
+
+
+
+  html {
+  scroll-behavior: smooth; 
+}
+
+.layout {
+  display: flex;
+
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+#titulos{
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+.productos-bebida {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bebida_tam {
+  width: 200px; 
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
